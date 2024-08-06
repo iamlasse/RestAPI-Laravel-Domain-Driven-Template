@@ -20,6 +20,43 @@ This template is ideal for Laravel developers who:
 
 ## Project Structure
 
+```
+app
+---- Console
+---- ---- Commands
+---- Domain
+---- ---- ExampleDomain
+---- ---- ---- Models
+---- ---- ---- Data
+---- ---- ---- ViewModels
+---- ---- ---- ValueObjects
+---- ---- ---- Actions
+---- ---- ---- Casts
+---- ---- ---- Channels
+---- ---- ---- Commands
+---- ---- ---- Enums
+---- ---- ---- Events
+---- ---- ---- Exceptions
+---- ---- ---- Factories
+---- ---- ---- Jobs
+---- ---- ---- Listeners
+---- ---- ---- Mail
+---- ---- ---- Notifications
+---- ---- ---- Observers
+---- ---- ---- Policies
+---- ---- ---- Providers
+---- ---- ---- Resources
+---- ---- ---- Rules
+---- ---- ---- Scopes
+---- ---- ---- Traits
+---- Infrastructure
+---- ---- Middleware
+---- ---- Services
+---- ---- API
+---- ---- ---- Data
+---- ---- ---- Enum
+```
+
 ### Commands
 
 The `app/Console/Commands` directory contains artisan commands specifically designed for generating infrastructure classes. These commands are integral for scaffolding middleware and service classes within the Infrastructure layer of your application.
