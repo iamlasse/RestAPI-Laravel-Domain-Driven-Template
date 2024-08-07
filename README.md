@@ -190,7 +190,7 @@ The purpose of the `Shared` directory is to house shared resources that can be u
 
 ##### 1. **Casts**
 
--   `StringArrayCast.php`: Casts an attribute to and from an array of strings, allowing for storage of string arrays in a single database column.
+-   `DateTimeCast.php`: Casts an attribute with datetime type.
 
 ##### 2. **Data**
 
